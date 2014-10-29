@@ -1,9 +1,13 @@
 nav{
-    background-color: black;
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    width: 100%;
+    top:0px;
+    z-index: 1000;
 }
 
 nav ul{
-    width:960px;
+    width:100%;
     margin: auto;
     display: table;
     text-align: center;
@@ -12,13 +16,69 @@ nav ul{
 nav ul li{
     display: table-cell;
     padding-top: 34px;
-    padding-bottom: 34px;
+    padding-bottom: 24px;
 }
 
 nav ul li{
     font-family: "Didot", serif;
-    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: bold;
+}
+
+.emblem{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: absolute;
+    left:50%;
+    margin-left: -45px;
+}
+
+nav ul li a{
+    color: #949494;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: $screenSmall) {
+
+}
+
+@media only screen and (min-width: $screenMed) {
+    
+    nav ul{
+        width:100%;
+    }
+    
+    nav ul li{
+        width: 158px;
+        font-size: 10px;
+    }
+    
+    nav ul li.nav-spacer{
+        width: 90px;
+        height: 20px;
+    }
+    
+}
+
+@media only screen and (min-width: $screenLarge) {
+    
+    nav ul{
+        width:980px;
+    }
+    
+    nav ul li{
+        width: 200px;
+        font-size: 12px;
+    }
+    
+    nav ul li.nav-spacer{
+        width: 100px;
+        height: 20px;
+    }
 }

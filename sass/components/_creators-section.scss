@@ -1,0 +1,19 @@
+@media only screen and (min-width: $screenSmall) {
+
+}
+
+@media only screen and (min-width: $screenMed) {
+    
+    .creators-section{
+        height: 620px;
+        background-image: url(../img/creators-background.jpg);
+        background-position: right bottom;
+        background-size: 903px 590px;
+        background-repeat: no-repeat;
+    }
+    
+}
+
+@media only screen and (min-width: $screenLarge) {
+    
+}

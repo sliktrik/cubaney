@@ -1,50 +1,38 @@
-.swiper-container {
-  width: 100%;
-  height: 640px;
-  text-align: center;
+.hero-slider{
+    width: 100%;
+    height: 600px;
+    z-index: 10;
 }
-.red-slide {
-  background: #ca4040;
+
+.smoke{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    z-index: 15;
+    background-image: url(../img/smoke.png);
+    background-size: 2055px 600px;
 }
-.blue-slide {
-  background: #4390ee;
+
+@media only screen and (min-width: $screenSmall) {
+    .hero-slider{
+        margin-top: 0px;
+    }
 }
-.orange-slide {
-  background: #ff8604;
-}
-.green-slide {
-  background: #49a430;
-}
-.pink-slide {
-  background: #973e76;
-}
-.swiper-slide .title {
-  font-style: italic;
-  font-size: 42px;
-  margin-top: 80px;
-  margin-bottom: 0;
-  line-height: 45px;
-}
-.pagination {
-  position: absolute;
-  z-index: 20;
-  left: 10px;
-  bottom: 10px;
-}
-.swiper-pagination-switch {
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  border-radius: 8px;
-  background: #222;
-  margin-right: 5px;
-  opacity: 0.8;
-  border: 1px solid #fff;
-  cursor: pointer;
-}
-.swiper-visible-switch {
-  background: #aaa;
-}
-.swiper-active-switch {
-  background: #fff;
+
+@media only screen and (min-width: $screenMed) {
+    
+    .hero-slider{
+        margin-top: 75px;
+        background-image: url(../img/hero-background.jpg);
+        background-size: auto 600px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .hero-slider-bottle{
+        width: 285px;
+        margin-top: 75px;
+        margin-right: 60px;
+        float: right;
+    }
 }
