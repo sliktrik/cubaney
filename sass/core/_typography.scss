@@ -3,3 +3,39 @@
     src: url('../fonts/2C5DC5_0_0.eot');
     src: url('../fonts/2C5DC5_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2C5DC5_0_0.woff2') format('woff2'),url('../fonts/2C5DC5_0_0.woff') format('woff'),url('../fonts/2C5DC5_0_0.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'ProximaNovaExtraBold';
+    src: url('../fonts/proximanova-extrabold-webfont.eot');
+    src: url('../fonts/proximanova-extrabold-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanova-extrabold-webfont.woff2') format('woff2'),url('../fonts/proximanova-extrabold-webfont.woff') format('woff'),url('../fonts/proximanova-extrabold-webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ProximaNovaSemiBold';
+    src: url('../fonts/proximanova-sbold-webfont.eot');
+    src: url('../fonts/proximanova-sbold-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanova-sbold-webfont.woff2') format('woff2'),url('../fonts/proximanova-sbold-webfont.woff') format('woff'),url('../fonts/proximanova-sbold-webfont.ttf') format('truetype');
+}
+
+h1{
+    font-family: 'Didot', serif;
+    color: white;
+    font-size: 30px;
+}
+
+p{
+    font-family: "Georgia", sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.sub-heading{
+    font-size: 18px;
+    font-family: "ProximaNovaSemiBold", sans-serif;
+    color: #ad733f;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    display: inline-block;
+    margin-bottom: 8px;
+}

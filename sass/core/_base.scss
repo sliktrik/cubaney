@@ -1,3 +1,21 @@
 body{
     background-color: black;
 }
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+.left{
+    text-align: left;
+}
+
+.clear{
+    content: "";
+    clear: both;
+    display: block;
+}

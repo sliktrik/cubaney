@@ -1,0 +1,93 @@
+.award-listing-list{
+    display: block;
+    text-align: center;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    width:293px;
+    margin:auto;
+}
+
+.award-listing-list li{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 1px solid white;
+}
+
+.award-listing-list li:last-child{
+    border-bottom: none;
+}
+
+.award-listing-list li h6{
+    font-family: "ProximaNovaExtraBold", sans-serif;
+    font-size:15px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.award-listing-list li span{
+    font-family: "ProximaSemiExtraBold", sans-serif;
+    font-size:14px;
+    color: white;
+}
+
+.indv-product-section{
+    background-size: cover;
+    background-position:center center;
+}
+
+@media only screen and (min-width: $screenSmall) {
+    
+    .creators-section{
+        background-color: #02021b;
+    }
+}
+
+@media only screen and (min-width: $screenMed) {
+    
+    .creators-section{
+        height: 620px;
+        background-image: url(../img/creators-background.jpg);
+        background-position: right bottom;
+        background-size: 903px 903px;
+        background-repeat: no-repeat;
+        background-color: #02021b;
+    }
+    
+    .section-content{
+        padding-top: 70px;
+    }
+    
+    .section-content h1{
+        margin: 0px 0px 16px 0px;
+        line-height: 0px;
+    }
+    
+    .product-section{
+        height: 620px;
+        background-image: url(../img/product-background.jpg);
+        background-position: left bottom;
+        background-size: 1400px 1021px;
+        background-repeat: no-repeat;
+    }
+    
+    .indv-product-section{
+        height: 500px;
+    }
+    
+    .section-content-award{
+        margin-top: 86px;
+    }
+}
+
+@media only screen and (min-width: $screenLarge) {
+    
+    .product-section{
+        height: 620px;
+        background-image: url(../img/product-background.jpg);
+        background-position: left bottom;
+        background-size: 1400px 1021px;
+        background-repeat: no-repeat;
+    }
+}
