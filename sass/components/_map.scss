@@ -1,0 +1,48 @@
+.map-stockists-section{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 500px;
+}
+
+.map-overlay{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: 20;
+}
+
+.map-container{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: 15;
+    opacity: 0.1;
+}
+
+.map-overlay-inner{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.map-overlay-inner h1{
+    margin-bottom: 0px;
+}
+
+.map-overlay-inner img{
+    padding-bottom: 10px;
+}
+
+.map-overlay-inner input{
+    border: 1px solid white;
+    background-color: black;
+    padding: 10px 20px 0px 20px;
+    width:280px;
+    font-family: 'Didot', serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+}

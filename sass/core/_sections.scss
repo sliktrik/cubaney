@@ -79,6 +79,14 @@
     .section-content-award{
         margin-top: 86px;
     }
+    
+    .journey-section{
+        height: 620px;
+        background-image: url(../img/journey-background.jpg);
+        background-size: cover;
+        background-position:top center;
+        background-color: #02021b;
+    }
 }
 
 @media only screen and (min-width: $screenLarge) {

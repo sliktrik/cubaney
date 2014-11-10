@@ -39,6 +39,10 @@ nav ul li a{
     text-decoration: none;
 }
 
+nav ul li.active a{
+    color: #ad733f;
+}
+
 nav ul li a:hover{
     color: white;
     text-decoration: none;

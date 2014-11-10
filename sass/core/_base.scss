@@ -19,3 +19,7 @@ body{
     clear: both;
     display: block;
 }
+
+input:focus {
+    outline:none;
+}
