@@ -10,6 +10,13 @@
     z-index: 15;
     background-image: url(../img/smoke.png);
     background-size: 2055px 600px;
+    top:75px;
+    opacity: 1;
+}
+
+.smoke img{
+    position: absolute;
+    left:0px;
 }
 
 .hero-floral{
@@ -18,11 +25,60 @@
 
 @media only screen and (min-width: $screenSmall) {
     
-    .hero-slider{
-        margin-top: 0px;
+    .hero-slider-lockup{
+        margin-top: 5%;
+        text-align: center;
     }
     
+    .hero-slider{
+        margin-top: 0px;
+        background-image: url(../img/hero-background.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size:auto 100%;
+        height: 100vh;    
+    }
     
+    .hero-slider-bottle {
+        width: 80%;
+        margin-top: 50px;
+        margin-right: 0px;
+        float: right;
+    }
+    
+    .logo{
+        width: 70%;
+        margin-bottom: 3%;
+    }
+    
+    .hero-floral{
+        width: 70%;
+    }
+    
+    .hero-slider-lockup h1{
+        text-transform: uppercase;
+        font-size: 2.2em;
+        line-height: 1em;
+        margin-bottom: 3%;
+        margin-top: 3%;
+    }
+    
+    .hero-slider-bottle {
+        width: 40%;
+        margin-top: 3%;
+        margin-right: 0px;
+        float: none;
+        margin-bottom: 4%;
+    }
+    
+    .hero-slider-bottle-lockup{
+        text-align: center;
+    }
+    
+    .hero-slider-bottle-lockup .button{
+        margin-bottom: 3%;
+    }
 }
 
 @media only screen and (min-width: $screenMed) {
@@ -32,6 +88,7 @@
         background-image: url(../img/hero-background.jpg);
         background-size: cover;
         background-position: center center;
+        background-repeat: no-repeat;
         height: 450px;
     }
     
@@ -40,10 +97,10 @@
         text-align: center;
     }
     
-    .hero-slider-bottle{
-        width: 240px;
+    .hero-slider-bottle {
+        width: 320px;
         margin-top: 50px;
-        margin-right: 60px;
+        margin-right: 0px;
         float: right;
     }
     
@@ -67,9 +124,9 @@
     }
     
     .hero-slider-bottle{
-        width: 285px;
+        width: 395px;
         margin-top: 75px;
-        margin-right: 60px;
+        margin-right: 0px;
         float: right;
     }
     

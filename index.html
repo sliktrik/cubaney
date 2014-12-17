@@ -5,7 +5,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="description" content="RON CUBANEY - THE TASTE OF DIPLOMATIC IMMUNITY.">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
     <title>RON CUBANEY - THE TASTE OF DIPLOMATIC IMMUNITY.</title>
 
     <link rel="stylesheet" href="css/screen.css">
@@ -16,8 +17,20 @@
 </head>
 
 <body>
-
-    <nav class="hidden-xs">
+    
+    <div class="age-gate">
+        <div class="age-gate-inner">
+            <div class="age-gate-form">
+                <img src="img/logo.svg" alt="" />
+                <img class="full-emblem" src="img/full-emblem.svg" alt="" />
+                <p>Are you of legal drinking age in your country of residence?</p>
+                <a class="button button-primary button-agree">Yes</a>
+                <a class="button button-primary button-disagree">no</a>
+            </div>
+        </div>
+    </div>
+    
+    <nav class="main-menu">
         <div class="emblem">
             <a  href=".hero-slider">
                 <img src="img/emblem.svg" alt="" />
@@ -40,50 +53,56 @@
         </ul>
     </nav>
 
-    <section class="hero-slider" data-speed="5" data-type="background">
+    <section class="hero-slider">
+        
+        <div class="hidden-sm hidden-md hidden-lg">
+            <a class="hamburger-menu-icon"><img src="img/menu.svg" alt=""/></a>
+        </div>
+        
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-md-6">
-                    <img class="hero-slider-bottle" src="img/hero-bottle.png" alt="" />
-                </div>
-                <div class="col-sm-6 col-md-6">
+                <div class="col-xs-12 col-sm-6 col-sm-push-6 col-md-6 col-md-push-6">
                     <div class="hero-slider-lockup">
                         <img class="logo" src="img/logo.svg" alt="" />
                         <img class="hero-floral" src="img/hero-floral.svg" alt="" />
                         <h1>the taste of<br/>diplomatic<br/>immunity.</h1>
-                        <a class="button button-primary">discover the range</a>
+                        <a class="button button-primary button-products-nav hidden-xs">discover the range</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-sm-pull-6 col-md-6 col-md-pull-6">
+                    <div class="hero-slider-bottle-lockup">
+                        <img class="hero-slider-bottle" src="img/hero-bottle.png" alt="" />
+                        <div class="clear"></div>
+                        <a class="button button-primary button-products-nav button-products-nav-m hidden-sm hidden-md hidden-lg">discover the range</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="creators-section" data-speed="5" data-type="background">
+    <section class="creators-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-sm-8 col-md-6">
                     <div class="section-content">
                         <h1>Oliver &amp; Oliver</h1>
                         <span class="sub-heading">the creators</span>
                         <p>The Oliver &amp; Oliver story begins with Juanillo Oliver in the mid-nineteenth century. A Catalan in the Spanish military, Juanillo ended his military service in 1868 and established himself in the idyllic Las Placetas in Cuba. He and his family cultivated tobacco and sugarcane, and soon expanded their operations into the milling and production of sugars and tobaccos for the local farmers. Before long Juanillo was creating locally sourced, artisanal rums and cigars. Before long, the Oliver name was synonymous with the production of remarkable Cuban rum.</p>
                         <p>The War of Independence would put an end to the fame that had enveloped the Oliver family. Farms were destroyed, and the iconic Oliver mills were razed in 1898. Juanillo returned to his farmland where he rebuilt his sugar and tobacco crops, and his family continued that tradition until Cuba was once again shaken by revolution.</p>
-                        <a class="button button-primary">more</a>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-4 col-md-6">
 
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="product-section" data-speed="5" data-type="background">
+    <section class="product-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
-
-                </div>
-                <div class="col-md-4">
+                
+                <div class="col-sm-6 col-sm-push-6 col-md-4 col-md-push-8">
                     <div class="section-content">
                         <h1>Ron Cubaney</h1>
                         <span class="sub-heading">The Product</span>
@@ -92,6 +111,10 @@
                         <p>In 1987 that passion drew the Oliver family back to Cuba. It was that passion that saw the family uncover its heritage.</p>
                     </div>
                 </div>
+                
+                <div class="col-sm-6 col-sm-pull-6 col-md-8 col-md-pull-4">
+                    <img class="product-eaxample" src="img/product-example.png" alt="" />
+                </div>
             </div>
         </div>
     </section>
@@ -99,16 +122,19 @@
     <section class="indv-product-section 3-year-product-section" style="background-image:url(img/3-year-background.jpg);">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-sm-4 col-md-4">
                     <div class="section-content">
                         <h1>3 Year</h1>
                         <span class="sub-heading">white silver</span>
 
                         <p>This is the traditional white rum used for the Carribean cocktail bar. Excellent for the preperation of combined traditional drinks such as the mojito, daiquiri, ron collins, bloody mary, pina collada etc.</p>
-                        <a class="button button-primary">buy now</a>
+                        <a class="button button-primary" href="https://www.danmurphys.com.au/product/DM_ER_1000002928_WS3YR/cubaney-plata-natural-blanco-3-year-700ml" target="_blank">buy now</a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-2 col-sm-push-6 col-md-4 col-md-push-4 center">
+                    <img class="bottle" src="img/3-year-bottle.png" alt="" />
+                </div>
+                <div class="col-sm-6 col-sm-pull-2 col-md-4 col-md-pull-4">
                     <div class="section-content-award center">
                         <span class="sub-heading">awards</span>
                         <div class="award-listing">
@@ -123,27 +149,29 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 right">
-                    <img src="img/placeholder-bottle.png" alt="" />
-                </div>
+                
             </div>
         </div>
+        <!--<img class="wreath" src="img/wreath-3.svg" alt="" />-->
     </section>
     
     <section class="indv-product-section" style="background-image:url(img/5-year-background.jpg);">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-sm-4 col-md-4">
                     <div class="section-content">
                         <h1>5 Year</h1>
                         <span class="sub-heading">aged reserve</span>
                         <p>Made with liquers &amp; spirits, aged in American oak barrels. They have 
 undergone the maturationof at least 5 years in such barrels, previously used in the aging of American bourbon and then upgraded and prepared to receive sugar can distillates.</p>
                         <p>The woody aroma of honey and cane are very pleasant to smell; with a creamy taste that lingers in the mouth. A good option for drinking alone or with ice.</p>
-                        <a class="button button-primary">buy now</a>
+                        <a class="button button-primary" target="_blank" href="https://www.danmurphys.com.au/product/DM_ER_1000002928_AR5YR/cubaney-aged-reserve-5-year-700ml">buy now</a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-2 col-sm-push-6 col-md-4 col-md-push-4 center">
+                    <img class="bottle" src="img/5-year-bottle.png" alt="" />
+                </div>
+                <div class="col-sm-6 col-sm-pull-2 col-md-4 col-md-pull-4">
                     <div class="section-content-award center">
                         <span class="sub-heading">awards</span>
                         <div class="award-listing">
@@ -162,26 +190,28 @@ undergone the maturationof at least 5 years in such barrels, previously used in 
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 right">
-                    <img src="img/placeholder-bottle.png" alt="" />
-                </div>
+                
             </div>
         </div>
+        <!--<img class="wreath" src="img/wreath-5.svg" alt="" />-->
     </section>
     
     <section class="indv-product-section" style="background-image:url(img/8-year-background.jpg);">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-sm-4 col-md-4">
                     <div class="section-content">
                         <h1>8 Year</h1>
                         <span class="sub-heading">solera reserve</span>
                         <p>Aged for more than 8 years in small oak casks and aged in wine vaults of high Carribean temperatures, this is one of the best commercial rums.</p>
                         <p>It is a sweet and thick rum of taste and character, it is long in flavour, which allows it to be felt with a few sweet short notes. Dry with a colour old bronze, with a natural, very brilliant texture, it is an excellent rum to drink neat. </p>
-                        <a class="button button-primary">buy now</a>
+                        <a class="button button-primary" target="_blank" href="https://www.danmurphys.com.au/product/DM_ER_1000002928_SR8YR/cubaney-solera-reserve-8-year-700ml">buy now</a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-2 col-sm-push-6 col-md-4 col-md-push-4 center">
+                    <img class="bottle" src="img/8-year-bottle.png" alt="" />
+                </div>
+                <div class="col-sm-6 col-sm-pull-2 col-md-4 col-md-pull-4">
                     <div class="section-content-award center">
                         <span class="sub-heading">awards</span>
                         <div class="award-listing">
@@ -208,26 +238,27 @@ undergone the maturationof at least 5 years in such barrels, previously used in 
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 right">
-                    <img src="img/placeholder-bottle.png" alt="" />
-                </div>
             </div>
         </div>
+        <!--<img class="wreath" src="img/wreath-8.svg" alt="" />-->
     </section>
     
     <section class="indv-product-section" style="background-image:url(img/21-year-background.jpg);">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-sm-4 col-md-4">
                     <div class="section-content">
                         <h1>21 Year</h1>
                         <span class="sub-heading">exquisite</span>
                         <p>It is a modern cut rum, very aromatic and complex. This dark stock and red cherry rum stands out because of its true falvour of the oak cask. It is soft on the pallette and very tasty. It is a well-structured rum with a stable body. </p>
                         <p>Its character is distinctive and vigorous with all the properties of a long aging one. It is an extrondary and ample rum. Many consider it the best in the world.</p>
-                        <a class="button button-primary">buy now</a>
+                        <a class="button button-primary" target="_blank" href="https://www.danmurphys.com.au/product/DM_ER_1000002928_EX21YR/cubaney-exquisite-21-year-700ml">buy now</a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-2 col-sm-push-6 col-md-4 col-md-push-4 center">
+                    <img class="bottle" src="img/21-year-bottle.png" alt="" />
+                </div>
+                <div class="col-sm-6 col-sm-pull-2 col-md-4 col-md-pull-4">
                     <div class="section-content-award center">
                         <span class="sub-heading">awards</span>
                         <div class="award-listing">
@@ -254,26 +285,27 @@ undergone the maturationof at least 5 years in such barrels, previously used in 
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 right">
-                    <img src="img/placeholder-bottle.png" alt="" />
-                </div>
             </div>
         </div>
+        <!--<img class="wreath" src="img/wreath-21.svg" alt="" />-->
     </section>
     
     <section class="indv-product-section" style="background-image:url(img/30-year-background.jpg);">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-sm-4 col-md-4">
                     <div class="section-content">
                         <h1>30 Year</h1>
                         <span class="sub-heading">centenario</span>
                         <p>Dense aromas and flavours of banana creme brulee, chocolate covered cherry, sandlewood insense and toasted postachio with a supple, oily fruity medium body and long root beer, dried fruit, and polished wood accented finish made for sipping.</p>
                         <p>International Review of spirits Award: Gold medal 94 points.</p>
-                        <a class="button button-primary">buy now</a>
+                        <a class="button button-primary" target="_blank" href="https://www.danmurphys.com.au/product/DM_ER_1000002928_C30YO/cubaney-centenario-700ml">buy now</a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-2 col-sm-push-6 col-md-4 col-md-push-4 center">
+                    <img class="bottle-hero hidden-sm" src="img/hero-bottle.png" alt="" />
+                </div>
+                <div class="col-sm-6 col-sm-pull-2 col-md-4 col-md-pull-4">
                     <div class="section-content-award center">
                         <span class="sub-heading">awards</span>
                         <div class="award-listing">
@@ -300,25 +332,26 @@ undergone the maturationof at least 5 years in such barrels, previously used in 
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 right">
-                    <img src="img/placeholder-bottle.png" alt="" />
-                </div>
             </div>
         </div>
+        <!--<img class="wreath" src="img/wreath-30.svg" alt="" />-->
     </section>
     
     <section class="indv-product-section" style="background-image:url(img/12-year-background.jpg);">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-sm-4 col-md-4">
                     <div class="section-content">
-                        <h1>12 Year</h1>
+                        <h1>Spiced</h1>
                         <span class="sub-heading">spiced solera</span>
                         <p>Blended from a solera system of rums aged up to 15 years old Infused with natural spices - cloves, cinnamon, vanilla, anise and black pepper, this a premium spiced rum that its quality was proven at the 2014 Madrid rum festival taking home a silver medal.</p>
-                        <a class="button button-primary">buy now</a>
+                        <a class="button button-primary" target="_blank" href="https://www.danmurphys.com.au/product/DM_ER_1000002928_SPICE/cubaney-spiced-700ml">buy now</a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-2 col-sm-push-6 col-md-4 col-md-push-4 center">
+                    <img class="bottle" src="img/spiced-bottle.png" alt="" />
+                </div>
+                <div class="col-sm-6 col-sm-pull-2 col-md-4 col-md-pull-4">
                     <div class="section-content-award center">
                         <span class="sub-heading">awards</span>
                         <div class="award-listing">
@@ -333,33 +366,170 @@ undergone the maturationof at least 5 years in such barrels, previously used in 
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 right">
-                    <img src="img/placeholder-bottle.png" alt="" />
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="stockists-section">
+        <div class="container">
+            <div class="row">
+                <h1>Stockists</h1>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <span class="sub-heading">qld</span>
+                    <ul class="stockist-list">
+                        <li>
+                            <span class="stockist">Queens Plaza Wine &amp; Beer</span>
+                            <span class="address">Queen St BRISBANE CBD QLD 4000 </span>
+                        </li>
+                        <li>
+                            <span class="stockist">Purple Palate Maleny</span>
+                            <span class="address">1/12 Bicentenary Lane, Maleny QLD 4552</span>
+                        </li>
+                        <li>
+                            <span class="stockist">Aussie World Bottleshop</span>
+                            <span class="address">73 Frizzo Road, Glenview QLD 4553</span>
+                        </li>
+                        <li>
+                            <span class="stockist">Purple Palate</span>
+                            <span class="address">286 Hawthorne Road, Hawthorne, QLD 4171</span>
+                            <span class="phone">(07) 3902 1988</span>
+                        </li>
+                        <li>
+                            <span class="stockist">Thirsty Camel Airlie Beach Hotel</span>
+                            <span class="address">16 The Esplanade, Airlie Beach, QLD 4802</span>
+                            <span class="phone">1800 466 233</span>
+                        </li>
+                        <li>
+                            <span class="stockist">Denman Cellars</span>
+                            <span class="address">Shop 15, 33 Port Drive, Airlie Beach, QLD 4802</span>
+                            <span class="phone">(07) 4948 1333</span>
+                        </li>
+                        <li>
+                            <span class="stockist">Cellarbrations Bottle Shop</span>
+                            <span class="address">Reef Gateway Hotel 38 Shute Harbour Rd, Cannonvale QLD 4802</span>
+                            <span class="phone">(07) 4946 2600</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <span class="sub-heading">sa</span>
+                    <ul class="stockist-list">
+                        <li>
+                            <span class="stockist">Cellarbrations Bottle Shop</span>
+                            <span class="address">243 Main Rd, Blackwood SA 5051</span>
+                            <span class="phone">(08) 8278 5341</span>
+                        </li>
+                        <li>
+                            <span class="stockist">Stirling Hotel Bottle shop</span>
+                            <span class="address">52 Mt Barker Rd, Stirling SA 5152</span>
+                            <span class="phone">(08) 8339 2345</span>
+                        </li>
+                        <li>
+                            <span class="stockist">Cellarbrations Bottle Shop</span>
+                            <span class="address">Memford Way, Flagstaff Hill SA 5159 </span>
+                            <span class="phone">(08) 8270 4333</span>
+                        </li>
+                        <li>
+                            <span class="stockist">Belair Fine Wines</span>
+                            <span class="address">9 Russell St, Belair SA 5052</span>
+                            <span class="phone">(08) 8278 5222</span>
+                        </li>
+                        <li>
+                            <span class="stockist">Commercial Hotel Morgan</span>
+                            <span class="address">13 Railway Terrace, Morgan SA 5320</span>
+                            <span class="phone">(08) 8540 2107</span>
+                        </li>
+                        <li>
+                            <span class="stockist">East End Cellars</span>
+                            <span class="address">23-25 Vardon Ave, Adelaide SA 5000</span>
+                            <span class="phone">(08) 8232 5300</span>
+                        </li>
+                        <li>
+                            <span class="stockist">The Edinburgh Cellars </span>
+                            <span class="address">7 High St, SA 5062</span>
+                            <span class="phone">(08) 8373 2700</span>
+                        </li>
+                        <li>
+                            <span class="stockist">Goodwood Cellars</span>
+                            <span class="address">125 Goodwood Rd, Goodwood SA 5034</span>
+                            <span class="phone">(08) 8271 7481</span>
+                        </li>
+                        <li>
+                            <span class="stockist">Thirsty Camel</span>
+                            <span class="address">75 Goodwood Rd Goodwood SA 5034</span>
+                        </li>
+                        <li>
+                            <span class="stockist">Parafield Airport Liquor Store</span>
+                            <span class="address">Lot 14 Kings Road, Parafield Airport SA, 5106</span>
+                            <span class="phone">(08) 8258 7844</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <span class="sub-heading">nsw</span>
+                    <ul class="stockist-list">
+                        <li>
+                            <span class="stockist">Vine Wine</span>
+                            <span class="address">780 Bourke Street, #1, Redfern NSW 2016</span>
+                            <span class="phone">(02) 9310 5454</span>
+                        </li>
+                        <li>
+                            <span class="stockist">The Oak Barrel</span>
+                            <span class="address">152 Elizabeth St, Sydney NSW 2000</span>
+                            <span class="phone">(02) 9264 3022</span>
+                        </li>
+                        <li>
+                            <span class="stockist">The Little Bottler Gosford Drive through </span>
+                            <span class="address">99 Donnison St, Gosford NSW 2259</span>
+                            <span class="phone">(02) 4322 2890 </span>
+                        </li>
+                    </ul>
+                    <span class="sub-heading">vic</span>
+                    <ul class="stockist-list">
+                        <li>
+                            <span class="stockist">Nicks Wine Merchants</span>
+                            <span class="address">10-12 Jackson Ct, Doncaster East VIC 3109</span>
+                            <span class="phone">(03) 9848 1153 </span>
+                        </li>
+                    </ul>
+                    <span class="sub-heading">wa</span>
+                    <ul class="stockist-list">
+                        <li>
+                            <span class="stockist">De Vive Cellars</span>
+                            <span class="address">911 Beaufort St, Inglewood WA 6052</span>
+                            <span class="phone">(08) 9271 9197</span>
+                        </li>
+                    </ul>
+                    <span class="sub-heading">nt</span>
+                    <ul class="stockist-list">
+                        <li>
+                            <span class="stockist">Cellarbrations Bottle Shop</span>
+                            <span class="address">291 Whitewood Rd, Howard Springs NT 0835</span>
+                            <span class="phone">(08) 8983 1051</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
     
-    <section class="map-stockists-section">
-        <div id="panel"></div>
-        <div id="map-canvas"></div>
-    </section>
     
     <section class="journey-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-6">
                     <div class="section-content">
                         <h1>Ron Cubaney in Australia</h1>
                         <span class="sub-heading">the journey</span>
                         <p>It was passion that also saw Ron Cubaney reach Australian shores.</p>
-                        <p>Justin Boseley had zig-zagged the world working alongside oligarchs and billionaires.<br/>It gave him the opportunity to discover his own refinements. It wasn’t caviar or couture which attracted his interest. Instead, it was rum that sparked his passion. Justin was soon scouring the Caribbean for it’s most delectable, refined, unique creations. He’d fallen to the enchantment of its rich history and flavour like so many before.</p>
+                        <p>Justin Boseley had zig-zagged the world working alongside oligarchs and billionaires. It gave him the opportunity to discover his own refinements. It wasn’t caviar or couture which attracted his interest. Instead, it was rum that sparked his passion. Justin was soon scouring the Caribbean for it’s most delectable, refined, unique creations. He’d fallen to the enchantment of its rich history and flavour like so many before.</p>
                         <p>Justin’s journey often ended with disappointment. Too often local distilleries had given into the temptation of the money offered by global beverage corporations.<br/>Words like ‘aroma’, ‘aged’ and ‘full-bodied ’ were smothered by concepts like ‘margin’, ‘revenue’ and ‘efficiency’. </p>
                         <p>It was then that Justin discovered the story of Oliver &amp; Oliver; traditional rum distillers, re-establishing their Cuban heritage in the idyllic geographic and cultural surrounds of the Dominican Republic. Their Ron Cubaney range of traditional Cuban styled rums had been created by a Spanish soldier over 150 years before, were almost lost during the revolutions of the 1890s and the 1950s, and were now being reimagined by his descendants.  </p>
 
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
 
                 </div>
             </div>
@@ -369,7 +539,10 @@ undergone the maturationof at least 5 years in such barrels, previously used in 
     <section class="philosophy-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-6">
+                    
+                </div>
+                <div class="col-md-6">
                     <div class="section-content">
                         <h1>The Product</h1>
                         <span class="sub-heading">The Philosophy</span>
@@ -381,20 +554,60 @@ undergone the maturationof at least 5 years in such barrels, previously used in 
                         <p>Ron Cubaney. Created with passion, savoured in peace.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6">
+                    <ul class="footer-list">
+                        <li>
+                            <img src="img/la-rumbla-logo.jpg" alt="" />
+                        </li>
+                        <li>
+                            <span class="white">Copyright © 2012 La Rumbla. All rights reserved.</span>
+                        </li>
+                        <li>
+                            <span class="white">Liquor licence number LIQP770016407</span>
+                        </li>
+                        <li>
+                            <span class="white">Auburn NSW Australia</span>
+                        </li>
+                        <li>
+                            <span><br/>LIQUOR ACT (NSW) 2007</span>
+                        </li>
+                        <li>
+                            <span>It is against the law to sell or supply alcohol to, or to obtain alcohol on behalf of, a person under the age of 18 years.</span>
+                        </li>
+                        <li style="margin-top:20px;">
+                            <a href="http://sliktrik.com.au" target="_blank"><img src="img/sliktrik.svg" alt="" /></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fcubaneyrum&amp;width&amp;height=258&amp;colorscheme=dark&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=728610100549157" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:258px;" allowTransparency="true"></iframe>
                 </div>
             </div>
         </div>
     </section>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
-    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=true&libraries=places"></script>
-    <script src="//google-maps-utility-library-v3.googlecode.com/svn/trunk/infobubble/src/infobubble-compiled.js"></script>
-    <script src="js/lib/store-locator.min.js"></script>
-    <script src="js/lib/medicare-static-ds.js"></script>
+    <script src="js/lib/jquery.cookie.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/storelocator.js"></script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-56717508-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
 </body>
 
-</html>s
+</html>

@@ -48,6 +48,11 @@
 
 .storelocator-panel .location-search input {
   width: 95%;
+    border: 1px solid white;
+    background-color: black;
+    padding:10px;
+    font-family: "Didot";
+    color: white;
 }
 
 .storelocator-panel .location-search h4 {
@@ -81,7 +86,8 @@
 .store .title {
   font-weight: bold;
     font-family: 'ProximaNovaSemiBold';
-    color: white;
+    color: #ad733f;
+    font-size: 14px;
 }
 
 .store:hover .title {
@@ -92,7 +98,7 @@
 .store .phone,
 .store .web,
 .store .misc {
-  font-size: 80%;
+  font-size: 12px;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
   display: block;
@@ -123,4 +129,23 @@
   font-size: 0.8em;
   color: green;
   margin-right: 0.5em;
+}
+
+.no-stores{
+    color:#ad733f;
+}
+
+.gm-style-mtc {
+  display: none;
+}
+
+._ibani_5677 > div > div > .store > .title{
+    color: red;
+}
+
+.directions, .zoomhere, .streetview{
+    display: none;
+} 
+.hours {
+    opacity:0;
 }

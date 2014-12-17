@@ -16,26 +16,56 @@
     src: url('../fonts/proximanova-sbold-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanova-sbold-webfont.woff2') format('woff2'),url('../fonts/proximanova-sbold-webfont.woff') format('woff'),url('../fonts/proximanova-sbold-webfont.ttf') format('truetype');
 }
 
-h1{
-    font-family: 'Didot', serif;
-    color: white;
-    font-size: 30px;
+@media only screen and (min-width: $screenSmall) {
+    h1{
+        font-family: 'Didot', serif;
+        color: white;
+        font-size: 30px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    p{
+        font-family: "Georgia", sans-serif;
+        font-size: 15px;
+        color: white;
+        margin-bottom: 20px;
+        line-height: 24px;
+    }
+
+    .sub-heading{
+        font-size: 18px;
+        font-family: "ProximaNovaSemiBold", sans-serif;
+        color: #ad733f;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        display: inline-block;
+        margin-bottom: 8px;
+    }
 }
 
-p{
-    font-family: "Georgia", sans-serif;
-    font-size: 15px;
-    color: white;
-    margin-bottom: 20px;
-    line-height: 24px;
-}
+@media only screen and (min-width: $screenMed) {
+    h1{
+        font-family: 'Didot', serif;
+        color: white;
+        font-size: 30px;
+    }
 
-.sub-heading{
-    font-size: 18px;
-    font-family: "ProximaNovaSemiBold", sans-serif;
-    color: #ad733f;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    display: inline-block;
-    margin-bottom: 8px;
+    p{
+        font-family: "Georgia", sans-serif;
+        font-size: 15px;
+        color: white;
+        margin-bottom: 20px;
+        line-height: 24px;
+    }
+
+    .sub-heading{
+        font-size: 18px;
+        font-family: "ProximaNovaSemiBold", sans-serif;
+        color: #ad733f;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        display: inline-block;
+        margin-bottom: 8px;
+    }
 }
